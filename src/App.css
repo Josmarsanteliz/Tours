@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: cadetblue;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  text-align: center;
+}
+
+.card {
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 1em;
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  max-height: 400px;
+}
+.card .head {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+
+}
+a {
+  color: rgb(66, 183, 187);
+  cursor: pointer;
+}
+.card .content {
+  margin: 1em;
+  text-align: justify;
+}
+
+.btn {
+  background-color: #fff;
+  color: cadetblue;
+  border: 1px cadetblue solid;
+  padding: 0 1.5em;
+  font-size: 1.3rem;
+  margin: 1em;
+  cursor: pointer;
+}
